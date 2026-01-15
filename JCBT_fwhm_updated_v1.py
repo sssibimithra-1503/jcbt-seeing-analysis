@@ -20,8 +20,8 @@ from astropy.wcs import WCS
 import shutil
 
 # --- CONFIGURATION ---
-SOURCE_DIR = "/mnt/focus_testing_8jan_1" 
-LOCAL_DIR = "/home/hp/iraf-2.18.1/8jan2026_1" 
+SOURCE_DIR = "/mnt/focus_testing_8jan_1" # Replace with the path name of your remote folder. 
+LOCAL_DIR = "/home/hp/iraf-2.18.1/8jan2026_1" # Replace with the path name of your local directory where the remote files are to be copied.
 LIVE_DATA_CSV = os.path.join(LOCAL_DIR, "live_fwhm_data.csv") 
 TEMP_COO_FILE = os.path.join(LOCAL_DIR, "temp_sources.coo")
 
