@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Research Trainees"
+    given-names: ""
+    affiliation: "Vainu Bappu Observatory"
+title: "JCBT Seeing Analysis Pipeline"
+version: 1.0.0
+date-released: 2026-01-15
+url: "https://github.com/thecosmicadence/jcbt-seeing-analysis"
+abstract: >-
+  A Python-based pipeline for real-time seeing analysis and FWHM measurement 
+  at the Vainu Bappu Observatory (VBO). It automates data retrieval, 
+  handles SPE to FITS conversion, and generates live plots.
+license: MIT
