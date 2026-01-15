@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # --- CONFIGURATION ---
-DATA_DIR = "/home/hp/iraf-2.18.1/7jan2026"
+DATA_DIR = "/home/hp/iraf-2.18.1/7jan2026" # Replace with the path name of the directory where the csv file is present.
 CSV_FILE = os.path.join(DATA_DIR, "live_M34_fwhm_data .csv")
 SAVE_IMAGE_FILE = os.path.join(DATA_DIR, "fwhm_focus_M34_new_monitor.png") 
 FOCUS_COLUMN = 'FOCUS'  # Change this if your column name is different
