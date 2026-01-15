@@ -5,7 +5,7 @@ import os
 import numpy as np
 
 # --- CONFIGURATION ---
-DATA_DIR = "/home/luciferat022/test_final_30dec2025"
+DATA_DIR = "/home/luciferat022/test_final_30dec2025" # Replace with the path name of the directory where .csv file is present
 CSV_FILE = os.path.join(DATA_DIR, "live_fwhm_data.csv")
 SAVE_IMAGE_FILE = os.path.join(DATA_DIR, "fwhm_monitor.png") 
 
