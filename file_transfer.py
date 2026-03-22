@@ -37,10 +37,10 @@ def file_transfer(remote_host,remote_port,username,password,remote_path,local_pa
         print(f"An error occured:{e}")
 # configure
 #Remote server details
-HOST= '192.168.100.169'
+HOST= '192.168.100.xxx'
 PORT=22
-USERNAME= 'luciferat022'
-PASSWORD= 'M2prakash$'
+USERNAME= 'USERNAME'
+PASSWORD= 'PASS'
 Local_dir= "/home/hp/Desktop/file_transfer_test"
 Remote_path="/home/luciferat022/11mar_2026"
 Local_path= os.path.join(Local_dir,os.path.basename(Remote_path))
